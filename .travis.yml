@@ -6,11 +6,11 @@ after_script:
   - npm run build
   - cd ./dist
   - git init
-  - git config user.name "${USER_NAME}"
-  - git config user.email "${USER_EMAIL}"
+  - git config user.name "${woshitiancai1}"
+  - git config user.email "${2590919679@qq.com}"
   - git add .
   - git commit -m "publish wet site"
-  - git push --force --quiet "https://${ACC_TOKEN}@${GH_REF}" master:${BRANCH}
+  - git push --force --quiet "https://${xuemingxing2}@${GH_REF}" master:gh-pages
 
 branches:
   only:
